@@ -1,0 +1,15 @@
+Taskbar Hardware Telemetry and Clock Customisation
+Copyright 2026 Connor
+
+This project is a fork of Taskbar Clock Customization by m417z.
+
+Upstream project:
+https://github.com/ramensoftware/windhawk-mods/tree/main/mods/taskbar-clock-customization.wh.cpp
+
+Upstream development repository:
+https://github.com/m417z/my-windhawk-mods
+
+Original contributions by Connor are licensed under the Apache License 2.0.
+Portions derived from Taskbar Clock Customization retain their original GNU General Public License v3.0 terms and attribution.
+
+The source file keeps the upstream attribution and licensing notice alongside this fork's Apache-2.0 metadata and contribution notice.
