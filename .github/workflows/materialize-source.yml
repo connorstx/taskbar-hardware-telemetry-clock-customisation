@@ -3,7 +3,7 @@ name: Materialize source
 on:
   push:
     paths:
-      - source.gz.b64
+      - 'payload/*.b64part'
 
 permissions:
   contents: write
@@ -18,7 +18,7 @@ jobs:
       - name: Decode source
         shell: bash
         run: |
-          base64 -d source.gz.b64 | gzip -d > taskbar-hardware-telemetry-clock-customisation.wh.cpp
+          cat payload/*.b64part | base64 -d | gzip -d > taskbar-hardware-telemetry-clock-customisation.wh.cpp
 
       - name: Commit generated source
         shell: bash
